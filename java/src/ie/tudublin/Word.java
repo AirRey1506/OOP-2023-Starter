@@ -9,6 +9,7 @@ public class Word extends Follow
     //making Array list
     //Follow  <ArrayList> = new Follow <ArrayList>;
 
+    //creating constructors and accessor methods for word
     public void Word(Follow wrd)
     {
         this.wrd = wrd;

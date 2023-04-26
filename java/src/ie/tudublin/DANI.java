@@ -36,12 +36,13 @@ public class DANI extends PApplet {
 
 	public void keyPressed() 
 	{
+		//space key pressed new sonnet created
 	
 
 	}
 
 
-
+	//creating loadfile() method 
 	public void loadfile()
 	{
 		String w = "";
@@ -56,6 +57,12 @@ public class DANI extends PApplet {
 
 
 
+	}
+
+	public void printModel()
+	{
+		//must open file so it can load the data inside the text file
+		//openfile = open("small.text", "txt");
 	}
 
 	float off = 0;
