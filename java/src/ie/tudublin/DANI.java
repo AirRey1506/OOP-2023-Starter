@@ -28,6 +28,25 @@ public class DANI extends PApplet {
 
 	public void keyPressed() 
 	{
+	
+
+	}
+
+
+
+	public void loadfile()
+	{
+		String w = "";
+		String s = "";
+		String line = "";
+
+
+		loadStrings("small.txt"); // Load a text file into a String array
+		split(line, ' '); // Split a string into an array of words
+		w.replaceAll("[^\\w\\s]",""); // Remove punction characters
+		s.toLowerCase(); // Convert a string to lower case 
+
+
 
 	}
 
