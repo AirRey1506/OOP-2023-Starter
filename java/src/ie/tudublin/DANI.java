@@ -1,6 +1,6 @@
 package ie.tudublin;
 
-import java.util.ArrayList;
+//
 
 import processing.core.PApplet;
 
@@ -19,6 +19,14 @@ public class DANI extends PApplet {
     {
         return null;
     }
+
+	String[] findword;
+	String[] str;
+
+	public String[] findWrd()
+	{
+		return null;
+	}
 
 	public void setup() {
 		colorMode(HSB);
