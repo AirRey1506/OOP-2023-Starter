@@ -9,7 +9,7 @@ public class Follow
         return count;
     }
 
-    public void setCount(in count)
+    public void setCount(int count)
     {
         this.count = count;
     }
